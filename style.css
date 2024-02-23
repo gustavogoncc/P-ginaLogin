@@ -1,0 +1,64 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #6d002d;
+    background: url('software-developer-6521720_640.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.6); /* Alterando a cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+form h2 {
+    color: #ffffff; /* Alterando a cor do texto "Login" para branco */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff; /* Alterando a cor do texto para branco */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ffffff; /* Alterando a cor da borda para branco */
+    background-color: rgba(255, 255, 255, 0.2); /* Adicionando transparência ao campo de entrada */
+    color: #ffffff; /* Alterando a cor do texto para branco */
+    margin-bottom: 10px; /* Adicionando margem inferior para separar os campos */
+}
+
+button {
+    padding: 10px 20px; /* Aumentando o preenchimento do botão */
+    background-color: #c411e7;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px; /* Aumentando o raio da borda para tornar o botão mais arredondado */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adicionando transição suave de cor */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
